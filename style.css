@@ -187,3 +187,927 @@ html {
         margin-bottom: 2vh;
     }
 }
+
+/* -------------------------Deliver-------------------------- */
+#Deliver{
+    margin-top: 20px;
+    padding: 20px 10%;
+    text-align: center;
+}
+#Deliver h1{
+    color: #2C3959;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+#Deliver  p{
+    color: #7D8AA9;
+    width: 600px;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#Deliver .People{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+#Deliver .People .Right h1{
+    color: #EAEAEB;
+    font-size: 70px;
+    font-weight: 600;
+}
+/* #Deliver .People .Right  .small{
+    font-size: 60px;
+    margin-top: 30px;
+} */
+/* #Deliver .People .Right {
+    flex-basis: 49%;
+} */
+#Deliver .People .Right img{
+    width: 100%;
+}
+#Deliver .People .Left{
+    background: #DBE7E9;
+    padding: 20px;
+    text-align: start;
+    border-radius: 8px;
+    /* flex-basis: 49%; */
+}
+/* #Deliver .People .Lefty{
+    margin-left: 200px;
+} */
+#Deliver .People .Left p{
+    color: #636768;
+    font-size: 18px;
+}
+#Deliver .People .Left h3{
+    margin-bottom: 20px;
+    font-size: 23px;
+}
+#Deliver .People .Left hr{
+    margin-bottom: 20px;
+}
+#Deliver .People .Left  .darker{
+    color: #333;
+    font-size: 18px;
+    line-height: 2;
+    padding-bottom: 20px;
+}
+#Deliver .People .Left button{
+    border: 0;
+    outline: 0;
+    background: #E92829;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    margin-bottom: 60px;
+}
+/* Responsive design */
+
+/* Small devices (max-width: 575.98px) */
+@media screen and (max-width: 575.98px){
+    #Deliver h1{
+        font-size: 30px;
+    }
+    #Deliver p{
+        width: fit-content;
+    }
+    #Deliver .People{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    }
+    #Deliver .People .Left{
+        width: 100%;
+        margin-top: 30px;
+    }
+    #Deliver .People .Left button{
+        margin-bottom: 20px;
+    }
+    #Deliver .People .Right h1{
+        font-size: 70px;
+        margin-top: 30px;
+    }
+    #Deliver .People .Right h1{
+        font-size: 50px;
+    }
+}
+/* -------------------------Download-------------------------- */
+#Download{
+    padding: 30px 10%;
+}
+#Download .Two{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#Download h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2C3959;
+    font-weight: 600;
+    font-size: 40px;
+}
+#Download .One{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.241);
+    padding: 10px;
+    margin-right: 20px;
+    text-align: center;
+}
+#Download .One img{
+    width: 100%;
+    padding-bottom: 20px;
+}
+#Download .One h3{
+    color: #2C3959;
+    padding-bottom: 20px;
+}
+#Download .One button{
+    border: 0;
+    outline: 0;
+    background: #E92829;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+/* Responsive design */
+
+/* Small devices (max-width: 575.98px) */
+@media screen and (max-width: 575.98px){
+    #Download .Two{
+        display: flex;
+        flex-direction: column;
+    }
+    #Download .One {
+        margin-top: 30px;
+    }
+    #Download h2{
+        font-size: 30px;
+    }
+}
+
+
+/* -------------------------Ready-------------------------- */
+#Ready{
+    padding: 50px 10%;
+    background: #DBE7E9;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    text-align: center;
+    margin: 0 10%;
+}
+#Ready h1{
+    color: #2C3959;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 2;
+    padding-top: 40px;
+}
+#Ready  #typng-text{
+    color: #E92829;
+}
+#Ready  button{
+    border: 0;
+    outline: 0;
+    background: #E92829;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+/* Responsive design */
+
+/* Small devices (max-width: 575.98px) */
+@media screen and (max-width: 575.98px){
+    #Ready {
+        margin: 0 2%;
+    }
+    #Ready h1{
+        font-size: 21px;
+    }
+}
+/* -------------------------Footer-------------------------- */
+#Footer{
+    background:  #3B3B3B;
+    padding: 30px 15%;
+}
+#Footer .One{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+#Footer .One .Left{
+    border-right: 2px solid white;
+    padding-right: 70px;
+}
+#Footer .One .Left img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+#Footer .One .Left h3{
+    font-weight: 600;
+    color: white;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+#Footer .One .Left  button{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.241);
+    border: 0;
+    outline: 0;
+    background: #3B3B3B;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+#Footer .One .Right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#Footer .One .Right .Two{
+    margin-right: 30px;
+}
+#Footer .One .Right .Two ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+#Footer .One .Right .Two ul li{
+    margin-bottom: 3vh;
+}
+#Footer .One .Right .Two ul li a{
+    text-decoration: none;
+    color: white;
+}
+#Footer .One .Right .Two h4{
+    color: white;
+    margin-bottom: 3vh;
+    font-size: 20px;
+}
+#Footer .Three{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    color: white;
+}
+#Footer .Three .Righty i{
+    padding-right: 20px;
+    font-size: 20px;
+}
+/* Small devices (max-width: 575.98px) */
+@media screen and (max-width: 575.98px){
+    #Footer{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    #Footer .One{
+        display: flex;
+        flex-direction: column;
+    }
+    #Footer .One .Right {
+        display: flex;
+        flex-direction: column;
+    }
+    #Footer .Three{
+        display: flex;
+        flex-direction: column;
+    }
+    #Footer .One .Left{
+        border-right: none;
+        border-bottom: 2px solid white;
+        text-align: center;
+    }
+    #Footer .One .Left  button{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    #Footer .One .Right .Two{
+        text-align: center;
+        margin-top: 30px;
+    }
+    #Footer .Three .Lefty{
+        margin-bottom: 20px;
+    }
+    #Footer .Three .Lefty p{
+        line-height: 2;
+    }
+}
+/* ---------------------------about----------------------- */
+#About .Nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    position: relative;
+}
+#About .Nav .Logo img{
+    width: 220px;
+}
+#About .Nav .Right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#About  ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+}
+#About ul li{
+    margin-right: 20px;
+}
+#About ul li .red{
+    color: red;
+}
+#About  ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+#About  button{
+    border: 0;
+    outline: 0;
+    background: red;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+}
+#About .Respo-Nav{
+    text-align: center;
+    position: fixed;
+    transition: all 0.6s ease-in-out;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.475);
+    right: -105%;
+    z-index: 999;
+    top: 0;
+}
+#About .Respo-Nav.nav-open{
+    right: 0;
+}
+#About .Respo-Nav .Right ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+}
+#About  .Respo-Nav .Right ul li{
+    margin-bottom: 12vh;
+}
+#About .menu-btn{
+    position: fixed;
+    top: 70px;
+    right: 60px;
+    z-index: 999;
+    display: none;
+    font-size: 20px;
+    color: white;
+}
+/* Responsive design */
+
+/* Small devices (max-width: 575.98px) */
+@media screen and (max-width: 575.98px){
+    #About{
+        height: fit-content;
+    }
+    #About .menu-btn{
+        display: flex;
+    }
+
+    #About .Nav .Right{
+        display: none;
+    }
+    #About .Nav .Logo img{
+        width: 150px;
+    }
+    #About  ul li a{
+        color: white;
+    }
+    #About .menu-btn{
+        color: red;
+    }
+}
+
+/* ---------------------------Our----------------------- */
+#Our{
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    margin: 0 10%;
+    background: #DBE7E9;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#Our .Right img{
+    width: 100%;
+}
+#Our  .Left h1{
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+#Our  .Left p{
+    line-height: 2;
+    width: 600px;
+}
+/* Responsive design */
+
+/* Small devices (max-width: 575.98px) */
+@media screen and (max-width: 575.98px){
+    #Our{
+        display: flex;
+        flex-direction: column;
+    }
+    #Our  .Left p{
+        width: fit-content;
+    }
+    #Our  .Left h1{
+        font-size: 21px;
+        font-weight: 600;
+    }
+}
+/* ---------------------------Where----------------------- */
+#Where{
+    padding: 30px 10%;
+}
+#Where h1{
+    color: #2C3959;
+    font-weight: 600;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+#Where  p{
+    text-align: center;
+    color: #7D8AA9;
+    font-size: 18px;
+    line-height: 2;
+}
+#Where img{
+    width: 100%;
+}
+/* Small devices (max-width: 575.98px) */
+@media screen and (max-width: 575.98px){
+    #Where h1{
+        font-size: 28px;
+    }
+    #Where  p{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+}
+
+ /* -------------------------Are-------------------------- */ 
+ #Are{
+    margin: 20px 10%;
+    text-align: center;
+ }
+ #Are h1{
+    color: #2C3959;
+    font-weight: 600;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+ }
+ #Are .One{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #DBE7E9;
+    padding: 20px;
+    justify-content: space-between;
+    height: 400px;
+ }
+ #Are .One .Left h2{
+    text-decoration: underline;
+    margin-bottom: 20px;
+ }
+ #Are .One .Left  p{
+    line-height: 2;
+    margin-bottom: 20px;
+    width: 480px;
+ }
+ /* Small devices (max-width: 575.98px) */
+@media screen and (max-width: 575.98px){
+    #Are .One h1{
+        font-size: 21px;
+    }
+    #Are .One{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+    #Are .One .Left  p{
+        width: fit-content;
+    }
+    #Are h1{
+        font-size: 28px;
+        font-weight: 600;
+    }
+}
+
+
+/* -------------------------Industry-------------------------- */ 
+
+#Indutry{
+    background: #F1F0FA;
+    display: flex;
+    flex-direction: row;
+    padding: 60px 10%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#Indutry .Left {
+    margin-right: 100px;
+}
+#Indutry .Left .One{
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+#Indutry .Left .One h2{
+    color: #2C3959;
+    font-weight: 600;
+}
+#Indutry .Left .One p{
+    color: #7D8AA9;
+    line-height: 2;
+    font-size: 16px;
+}
+#Indutry .Right h1{
+    color: #2C3959;
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+#Indutry .Right p{
+    line-height: 2;
+    color: #7D8AA9;
+    margin-bottom: 20px;
+}
+#Indutry .Right button{
+    border: 0;
+    outline: 0;
+    background: red;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+ /* Small devices (max-width: 575.98px) */
+ @media screen and (max-width: 575.98px){
+    #Indutry{
+        display: flex;
+        flex-direction: column;
+    }
+    #Indutry .Right h1{
+        font-size: 28px;
+    }
+ }
+
+ /* -------------------------Ready-------------------------- */
+#Read{
+    padding: 50px 10%;
+    background: #DBE7E9;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    text-align: center;
+    margin: 0 10%;
+}
+#Read h1{
+    color: #2C3959;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 2;
+    padding-top: 40px;
+}
+#Read  #typng-text{
+    color: #E92829;
+}
+#Read  button{
+    border: 0;
+    outline: 0;
+    background: #E92829;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+/* Responsive design */
+
+/* Small devices (max-width: 575.98px) */
+@media screen and (max-width: 575.98px){
+    #Read {
+        margin: 0 2%;
+    }
+    #Read h1{
+        font-size: 21px;
+    }
+}
+
+ /* -------------------------Contract-------------------------- */ 
+ #Contract{
+    padding: 30px 10%;
+ }
+ #Contract h1{
+    color: #2C3959;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 50px;
+ }
+ #Contract p{
+    color: #7D8AA9;
+    width: 700px;
+    line-height: 2;
+    font-weight: 18px;
+ }
+ /* Responsive design */
+
+/* Small devices (max-width: 575.98px) */
+@media screen and (max-width: 575.98px){
+    #Contract h1{
+        font-size: 22px;
+    }
+    #Contract p{
+        width: fit-content;
+    }
+}
+
+ /* -------------------------efficient-------------------------- */
+ #efficient{
+    padding: 30px 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:  first baseline;
+    margin-bottom: 30px;
+ }
+ #efficient .Right img{
+    width: 300px;
+ }
+ #efficient .Left h2{
+    color: #2C3959;
+ }
+  /* Responsive design */
+
+/* Small devices (max-width: 575.98px) */
+@media screen and (max-width: 575.98px){
+    #efficient{
+        display: flex;
+        flex-direction: column;
+    }
+    #efficient .Left h2{
+        font-size: 18px;
+    }
+}
+
+/* -------------------------efficient-------------------------- */
+#Cost{
+    padding: 30px 10%;
+}
+#Cost .One{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    margin-bottom: 20px;
+}
+#Cost .One .Two{
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid gainsboro;
+    width: 100%;
+}
+#Cost .One .Two:hover{
+    border: 2px solid #7D8AA9;
+}
+#Cost .One .Two h3{
+    color: #2C3959;
+    margin-bottom: 20px;
+}
+#Cost .One .Two  p{
+    color: #7D8AA9;
+    line-height: 2;
+}
+  /* Responsive design */
+
+/* Small devices (max-width: 575.98px) */
+@media screen and (max-width: 575.98px){
+    #Cost .One{
+        display: flex;
+        flex-direction: column;
+    }
+    #Cost .One .Two{
+        margin-bottom: 20px;
+    }
+}
+
+/* -------------------------Lifecycle-------------------------- */ 
+#Lifecycle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+#Lifecycle .Left{
+    margin-right: 20px;
+}
+#Lifecycle .Left iframe{
+    border-radius: 20px;
+}
+#Lifecycle .Right{
+    background: #DBE7E9;
+    padding: 20px;
+}
+#Lifecycle .Right h2{
+    margin-bottom: 20px;
+    border-bottom: 2px dotted;
+    padding-bottom: 20px;
+}
+#Lifecycle .Right p{
+    color: #7D8AA9;
+    line-height: 2;
+}
+/* Small devices (max-width: 575.98px) */
+@media screen and (max-width: 575.98px){
+    #Lifecycle{
+        display: flex;
+        flex-direction: column;
+    }
+    #Lifecycle .Left iframe{
+        width: fit-content;
+        height: 250px;
+        margin-bottom: 20px;
+    }
+}
+
+#Cost h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2C3959;
+}
+/* Small devices (max-width: 575.98px) */
+@media screen and (max-width: 575.98px){
+    #Cost h1{
+        font-size: 20px;
+    }
+}
+/* <!-- --------------------------seccurty-------------- --> */
+#Security{
+    padding: 30px 20%;
+    text-align: center;
+}
+#Security h1{
+    font-size: 50px;
+    color: #2C3959;
+    margin-bottom: 20px;
+}
+#Security p{
+    line-height: 2;
+    margin-bottom: 20px;
+    color: #7D8AA9;
+    font-size: 18px;
+}
+#Security button{
+    border: 0;
+    outline: 0;
+    background: #E92829;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+/* Small devices (max-width: 575.98px) */
+@media screen and (max-width: 575.98px){
+    #Security h1{
+        font-size: 23px;
+    }
+}
+
+
+/* --------------------------connect--------------- */
+#Connect{
+    padding: 30px 20%;
+    background:#F8FAFC;
+    text-align: center;
+}
+#Connect .One{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+#Connect h1{
+    color: #2C3959;
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#Connect p{
+    color: #7D8AA9;
+    font-size: 18px;
+}
+#Connect .One .Right{
+    background: #ffffff;
+    padding: 20px;
+    text-align: start;
+    margin-left: 20px;
+    width: 100%;
+    border-radius: 8px;
+}
+#Connect .One .Right form label{
+    font-weight: 600;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+#Connect .One .Right form input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    border: 2px solid gainsboro;
+}
+#Connect .One .Right form  .four{
+    display: flex;
+    justify-content: space-between;
+}
+#Connect .One .Right form  .four .left{
+    margin-right: 20px;
+}
+#Connect .One .Right form  .five{
+    display: flex;
+    justify-content: space-between;
+}
+#Connect .One .Right form  .five .right{
+    margin-right: 20px;
+}
+#Connect .Two{
+    display: flex;
+    flex-direction: row;
+}
+#Connect .Two .Three{
+    background: #ffffff;
+    margin-right: 20px;
+    padding: 20px;
+    width: 100%;
+}
+#Connect .Two .Three i{
+    font-size: 30px;
+    background: red;
+    border-radius: 50%;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#Connect .Two .Three p{
+    line-height: 2;
+}
+/* Small devices (max-width: 575.98px) */
+@media screen and (max-width: 575.98px){
+    #Connect .One{
+        display: flex;
+        flex-direction: column;
+    }
+    #Connect .One .Left iframe{
+        width: fit-content;
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+    #Connect .Two{
+        display: flex;
+        flex-direction: column;
+    }
+    #Connect .Two .Three{
+        margin-top: 20px;
+    }
+    #Connect h1{
+        font-size: 38px;
+    }
+}
+
