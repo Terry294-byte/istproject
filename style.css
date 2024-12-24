@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Prevent horizontal scroll */
+html, body {
+    overflow-x: hidden;
+  }
+
+body{
+    min-width: 100%;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  /* -------------------------Header-------------------------- */
+#Header{
+    background-image: url(./images/a1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+}
+#Header .Nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 60%, 0% 100%);
+    background: black;
+    position: relative;
+}
+#Header .Nav .Logo img{
+    width: 220px;
+}
+#Header .Nav .Right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#Header  ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+}
+#Header  ul li{
+    margin-right: 20px;
+}
+#Header  ul li .red{
+    color: red;
+}
+#Header  ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+#Header  button{
+    border: 0;
+    outline: 0;
+    background: red;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+}
+#Header  .Respo-Nav{
+    text-align: center;
+    position: fixed;
+    transition: all 0.6s ease-in-out;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.475);
+    right: -105%;
+    z-index: 999;
+    top: 0;
+}
+#Header  .Respo-Nav.nav-open{
+    right: 0;
+}
+#Header  .Respo-Nav .Right ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+}
+#Header  .Respo-Nav .Right ul li{
+    margin-bottom: 12vh;
+}
+#Header .menu-btn{
+    position: fixed;
+    top: 70px;
+    right: 60px;
+    z-index: 999;
+    display: none;
+    font-size: 20px;
+    color: white;
+}
+
+#Header .Sliding-txt{
+    color: white;
+    font-size: 30px;
+    margin-top: 80px;
+    padding: 0 10%;
+    text-align: start;
+}
+#Header .Sliding-txt #typing-text{
+    color: red;
+}
+#Header .Down{
+    color: white;
+    padding: 0 10%;
+    margin-top: 30px;
+    text-align: start;
+}
+#Header .Down p{
+    width: 600px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 2;
+    text-align: start;
+}
+#Header .Down  button{
+    border: 0;
+    outline: 0;
+    background: white;
+    color: red;
+    padding: 15px 25px;
+    border-radius: 8px;
+}
+#Header .bxs-down-arrow-circle{
+    color: #E92829;
+    font-size: 80px;
+    margin-top: 10vh;
+}
+  
+  .scroll-link i {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .scroll-link i:hover {
+    transform: translateY(5px);
+  }
+  
+#Header .bxs-down-arrow-circle:hover{
+    color: white    ;
+}
+/* Responsive design */
+
+/* Small devices (max-width: 575.98px) */
+@media screen and (max-width: 575.98px){
+    #Header{
+        height: fit-content;
+    }
+    #Header .menu-btn{
+        display: flex;
+    }
+    #Header .Nav{
+        background: black;
+        clip-path: none;
+    }
+    #Header .Nav .Right{
+        display: none;
+    }
+    #Header .Nav .Logo img{
+        width: 150px;
+    }
+    #Header{
+        background: black;
+    }
+    #Header .Down{
+        text-align: center;
+    }
+    #Header .Down p{
+        width: fit-content;
+    }
+    #Header .Sliding-txt{
+        font-size: 18px;
+    }
+    #Header .bxs-down-arrow-circle{
+        font-size: 60px;
+        margin-top: 5vh;
+        margin-bottom: 2vh;
+    }
+}
